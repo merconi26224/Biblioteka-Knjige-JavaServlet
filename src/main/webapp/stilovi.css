@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+html  { 
+	margin: auto;
+  	width: 50%;
+	padding: 10px;
+}
+body {
+    background-color:  #003300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:   #ccff99;
+    font-size: 17px;
+    text-align: center;
+}
+h2 {
+    color: #ccff99;
+    font-size: 13px;
+    text-align: center;
+}
+p {
+    color: #ccffcc;
+    font-size: 11px;
+    text-align:center;
+}
+
+.formtext {
+	color: #ccffcc;  
+	vertical-align: top;
+	font-size: 11px;
+}
+.form-center
+{
+  display:flex;
+  justify-content: center;
+}
+
+label,
+textarea{
+	display:inline-block;
+  	vertical-align:top;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 5px 7px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #660000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 11px;
+}
+
+input[type=text]:focus {
+  background-color: #ffff99;
+}
+
+input[type=submit] {
+  width:  100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 9px 11px;
+  margin: 8px 0;
+  border: 1px solid #660000;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+input[type=submit]:hover {
+  background-color: #33cc66;
+  border: 1px solid #333300;
+}
+
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 9px 11px;
+  font-family: Tahoma, sans-serif;
+  box-sizing: border-box;
+  border: 3px solid #660000;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 11px;
+  resize: none;
+  display:inline-block;
+  vertical-align:top;
+}
+
+textarea:focus {
+  background-color: #ffff99;
+}
+
+
+/* unvisited link */
+a:link {
+    	color: #ff9900;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    	color: #ff9900;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    	color: #ffcc66;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* selected link */
+a:active {
+    	color: #cc3300;
+	font-weight: bold;
+	text-decoration: none;
+}

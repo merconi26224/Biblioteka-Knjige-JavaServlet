@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <!-- ServletBiblioteka -->
+    <servlet>
+        <servlet-name>ServletBiblioteka</servlet-name>
+        <servlet-class>dzonitest.ServletBiblioteka</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletBiblioteka</servlet-name>
+        <url-pattern>/ServletBiblioteka</url-pattern>
+    </servlet-mapping>
+
+    <!-- ServletKnjiga -->
+    <servlet>
+        <servlet-name>ServletKnjiga</servlet-name>
+        <servlet-class>dzonitest.ServletKnjiga</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletKnjiga</servlet-name>
+        <url-pattern>/ServletKnjiga</url-pattern>
+    </servlet-mapping>
+
+    <!-- ServletPregledBiblioteke -->
+    <servlet>
+        <servlet-name>ServletPregledBiblioteke</servlet-name>
+        <servlet-class>dzonitest.ServletPregledBiblioteke</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPregledBiblioteke</servlet-name>
+        <url-pattern>/ServletPregledBiblioteke</url-pattern>
+    </servlet-mapping>
+
+    <!-- ServletPregledKnjiga -->
+    <servlet>
+        <servlet-name>ServletPregledKnjiga</servlet-name>
+        <servlet-class>dzonitest.ServletPregledKnjiga</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPregledKnjiga</servlet-name>
+        <url-pattern>/ServletPregledKnjiga</url-pattern>
+    </servlet-mapping>
+
+</web-app>
